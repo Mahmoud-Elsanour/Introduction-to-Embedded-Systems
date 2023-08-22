@@ -11,7 +11,7 @@
  * 
  * @return 0 on success and 1 otherwise
  */
-print_statistics(int arr[], int len);
+int print_statistics(int arr[], int len);
 
 /**
   * @brief Given an array of data and a length, prints the array to the screen.
@@ -21,7 +21,7 @@ print_statistics(int arr[], int len);
   *
   * @return 0 on success and 1 otherwise
   */
-print_array(int arr[], int len);
+int print_array(int arr[], int len);
 
 /**
   * @brief Given an array of data and a length, returns the median value
@@ -31,7 +31,7 @@ print_array(int arr[], int len);
   *
   * @return the median value
   */
-find_median(int arr[], int len);
+int find_median(int arr[], int len);
 
 /**
   * Given an array of data and a length, returns the mean
@@ -41,7 +41,7 @@ find_median(int arr[], int len);
   *
   * @return the mean
   */
-find_mean(int arr[], int len);
+float find_mean(int arr[], int len);
 
 /**
   * @brief Given an array of data and a length, returns the maximum
@@ -51,7 +51,7 @@ find_mean(int arr[], int len);
   *
   * @return The maximum value
   */
-find_maximum(int arr[], int len);
+int find_maximum(int arr[], int len);
 
 /**
   * @brief Given an array of data and a length, returns the minimum
@@ -61,7 +61,7 @@ find_maximum(int arr[], int len);
   *
   * @return the minimum value
   */
-find_minimum(int arr[], int len);
+int find_minimum(int arr[], int len);
 
 /**
   * @brief Given an array of data and a length, sorts the array from largest to smallest
@@ -71,6 +71,6 @@ find_minimum(int arr[], int len);
   *
   * @return 0 on success and 1 otherwise
   */
-sort_array()
+int sort_array(int arr[], int len);
 
 #endif /*stat.h*/
